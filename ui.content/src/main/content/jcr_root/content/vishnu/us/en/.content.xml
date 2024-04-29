@@ -75,7 +75,7 @@
                     <helloworld
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="vishnu/components/helloworld"
-                        text="lalala :)"/>
+                        text="This is first modification"/>
                 </container>
             </container>
         </root>
