@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="sidebar"
+    sling:resourceType="cq/gui/components/authoring/dialog"
+    componentGroup="vishnu - Content">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
+        <items jcr:primaryType="nt:unstructured">
+            <tabs
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/foundation/layouts/tabs">
+                <items jcr:primaryType="nt:unstructured">
+                    <header
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Header"
+                        sling:resourceType="granite/ui/components/foundation/container">
+                        <items jcr:primaryType="nt:unstructured">
+                            <path
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                                fieldLabel="Logo Path"
+                                name="./four"/>
+                            <mobile
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                                fieldLabel="Logo mobile image"
+                                name="./three"/>
+                            <link
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                                fieldLabel="Logo link"
+                                name="./two"/>
+                            <switch
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
+                                checked="{Boolean}true"
+                                fieldLabel="Enable Switch"
+                                name="./one"
+                                text="Enable Switch"/>
+                        </items>
+                    </header>
+                    <header_x0020_links
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Header Links"
+                        sling:resourceType="granite/ui/components/foundation/container">
+                        <items jcr:primaryType="nt:unstructured">
+                            <multifield
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                                composite="{Boolean}true"
+                                fieldLabel="header links">
+                                <field
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="granite/ui/components/coral/foundation/container"
+                                    name="./racket">
+                                    <items jcr:primaryType="nt:unstructured">
+                                        <name
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                            fieldLabel="Name"
+                                            name="./kon"/>
+                                        <image
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                                            fieldLabel="Image"
+                                            name="./dot"/>
+                                    </items>
+                                </field>
+                            </multifield>
+                        </items>
+                    </header_x0020_links>
+                    <side_x0020_bar_x0020_navigation
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="side bar navigation"
+                        sling:resourceType="granite/ui/components/foundation/container">
+                        <items jcr:primaryType="nt:unstructured">
+                            <multifield
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                                composite="{Boolean}true"
+                                fieldLabel="Side Bar navigation">
+                                <field
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="granite/ui/components/coral/foundation/container"
+                                    name="./packet">
+                                    <items jcr:primaryType="nt:unstructured">
+                                        <desktop
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                                            fieldLabel="Desktop icon&#xa;"
+                                            name="./vishnu"/>
+                                        <mobile
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                                            fieldLabel="mobile icon&#xa;"
+                                            name="./jok"/>
+                                        <nestedmultifield
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                                            composite="{Boolean}true">
+                                            <field
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/container"
+                                                name="./max">
+                                                <items jcr:primaryType="nt:unstructured">
+                                                    <navigation
+                                                        jcr:primaryType="nt:unstructured"
+                                                        sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                                                        fieldLabel="navigation URL"
+                                                        name="./rack"/>
+                                                </items>
+                                            </field>
+                                        </nestedmultifield>
+                                    </items>
+                                </field>
+                            </multifield>
+                        </items>
+                    </side_x0020_bar_x0020_navigation>
+                    <region
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="country"
+                        sling:resourceType="granite/ui/components/foundation/container">
+                        <items jcr:primaryType="nt:unstructured">
+                            <select
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                fieldLabel="Select country"
+                                name="./rat">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <US
+                                        jcr:primaryType="nt:unstructured"
+                                        text="us"
+                                        value="us"/>
+                                    <india
+                                        jcr:primaryType="nt:unstructured"
+                                        text="india"
+                                        value="india"/>
+                                </items>
+                            </select>
+                        </items>
+                    </region>
+                </items>
+            </tabs>
+        </items>
+    </content>
+</jcr:root>
