@@ -1,0 +1,104 @@
+<div class="share">
+    <h4>Share</h4>
+    <div class="social">
+        <a href="${properties.mag}" class="socialnav socialnavfb">
+            <svg xmlns="http://www.w3.org/2000/svg" width="8.4" height="16" viewBox="0 0 8.4 16">
+                <path fill="#FFF" d="M6.6 2.7h-1.3c-.8 0-1.1.4-1.1 1v1.8h2.3l-.3 2.6H4.2V16H1.5V8.1H0V5.5h1.5V3.8C1.5 1.7 2.7 0 4.8 0H6.6V2.7z"/>
+            </svg>
+        </a>
+        <a href="${properties.magi}" class="socialnav socialnavtwitter">
+            <svg xmlns="http://www.w3.org/2000/svg" width="17.702" height="16" viewBox="0 0 17.702 16">
+                <path fill="#FFF" d="M17.6 1.9c-.6.2-1.3.4-1.9.4.7-.4 1.2-1.1 1.4-1.9-.6.4-1.3.6-2 .8-.6-.6-1.4-1-2.3-1-1.8 0-3.3 1.5-3.3 3.3 0 .3 0 .6.1.9-2.7-.1-5.1-1.4-6.7-3.5-.3.6-.4 1.2-.4 1.9 0 1.3.7 2.5 1.7 3.2-.6 0-1.2-.2-1.7-.4 0 0 0 .1 0 .1 0 1.8 1.3 3.2 3 3.5-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.2 2.9 2.2-1.1.8-2.4 1.2-3.8 1.2-.2 0-.4 0-.5 0 1.4.9 3.1 1.5 4.9 1.5 5.9 0 9.1-4.9 9.1-9.1v-.4c.6-.4 1.1-1 1.6-1.5-.6.3-1.2.5-1.8.6.6-.5 1-1.2 1.4-2z"/>
+            </svg>
+        </a>
+        <a href="${properties.magic}" class="socialnav socialnavpinterest">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                <path fill="#FFF" d="M8 0C3.6 0 0 3.6 0 8c0 3.2 2.1 6 5.1 7.2-.1-.6-.2-1.4 0-2l1-4.2s-.2-.4-.2-1c0-1 .6-1.8 1.3-1.8.6 0 .9.4.9.9 0 .5-.3 1.3-.4 2-.1.5.2.9.7.9 1.3 0 2.3-1.4 2.3-3.3 0-1.7-1.2-2.9-2.9-2.9-2 0-3.2 1.4-3.2 2.9 0 .6.2 1.1.5 1.4.1.1.1.1 0 .3-.1.1-.2.3-.2.4-.1.1-.1.2-.2.1s-.1-.1-.1-.2c0-.1-.1-.2-.1-.2-.2-.2-.3-.5-.3-.9 0-1.2.9-2.2 2.4-2.2 1.3 0 2.2.9 2.2 2.1 0 1.5-.8 2.5-1.8 2.5-.4 0-.8-.3-.7-.7.1-.2.1-.4.2-.6.1-.3.3-.7.3-1.1 0-.9-.6-1.5-1.4-1.5-.8 0-1.4.7-1.4 1.5 0 .2 0 .3.1.4l-.5 2.3c-.1.4-.1.8-.1 1.1.1.6.2 1.1.5 1.5.6.8 1.6 1.4 2.7 1.4 2.3 0 4.2-1.9 4.2-4.2 0-2.3-1.9-4.2-4.2-4.2z"/>
+            </svg>
+        </a>
+        <a href="${properties.took}" class="socialnav socialnavmail">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" viewBox="0 0 20 16">
+                <path fill="#FFF" d="M20 3.6v8.8c0 2-.8 3.6-3.6 3.6H3.6C1.6 16 0 14.4 0 12.4V3.6C0 1.6 1.6 0 3.6 0h12.8C19.2 0 20 1.6 20 3.6zM2.4 2.4v11.2h15.2V2.4H2.4zM18 3.6v.4l-8 5-8-5V3.6l8 5 8-5z"/>
+            </svg>
+        </a>
+    </div>
+</div>
+<style>
+.share {
+    display: flex;
+    width: 455px;
+    align-items: flex-start;
+    gap: 64px;
+}
+
+.share h4 {
+    color: #333;
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* PetcoCAP/Headline4 */
+    font-family: "Petco Circular CAP";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 120% */
+}
+
+.share .social {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex: 1 0 0;
+}
+
+.share .social .socialnav {
+    display: flex;
+    height: 36px;
+    padding: 8px 32px;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 0;
+}
+
+.share .social .socialnavfb {
+    border-radius: 2px;
+    background: #25599F;
+}
+
+.share .social .socialnavtwitter {
+    border-radius: 2px;
+    background: var(--Primary-Charcoal, #333);
+}
+
+.share .social .socialnavpinterest {
+    border-radius: 2px;
+    background: #CB2027;
+}
+
+.share .social .socialnavmail {
+    border-radius: 2px;
+    background: #001952;
+}
+
+.share .social .socialnavfb svg {
+    width: 8.4px;
+    height: 16px;
+    fill: #FFF;
+}
+
+.share .social .socialnavtwitter svg {
+    width: 17.702px;
+    height: 16px;
+    fill: #FFF;
+}
+
+.share .social .socialnavpinterest svg {
+    width: 16px;
+    height: 16px;
+    fill: #FFF;
+}
+
+.share .social .socialnavmail svg {
+    width: 20px;
+    height: 16px;
+    fill: #FFF;
+}
+</style>
