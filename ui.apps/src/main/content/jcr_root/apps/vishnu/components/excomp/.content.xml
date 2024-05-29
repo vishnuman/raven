@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
-    jcr:description="This is component of product details"
+    jcr:description="This is excomp"
     jcr:primaryType="cq:Component"
-    jcr:title="product"
+    jcr:title="excomp"
     componentGroup="vishnu - Content"/>
