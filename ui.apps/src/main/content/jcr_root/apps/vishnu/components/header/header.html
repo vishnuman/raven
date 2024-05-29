@@ -1,0 +1,11 @@
+<p>Header Component</p>
+
+<div data-sly-use.obj="com.vishnu.core.models.Task1">
+    <p>TextField:${obj.text}</p>
+    <p>PathField:${obj.path}</p>
+    <p>Status:${obj.check ? 'yes' : 'no'}</p>
+    <div data-sly-list="${obj.multi}">
+    <p>TextField:${item.test}</p>
+    <p>Date:${item.data}</p>
+    </div>
+</div>
