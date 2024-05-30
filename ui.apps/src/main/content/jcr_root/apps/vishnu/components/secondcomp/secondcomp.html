@@ -1,0 +1,17 @@
+<div class="share">
+   <h4>Share</h4>
+   <div class="social">
+      <sly data-sly-use.socialModel="com.vishnu.core.models.SocialIconModel" >
+         <sly data-sly-list="${socialModel.icons}">
+            <a href="${item.getCtaLink}" class="socialnav socialnavpinterest" target="_blank">
+              <img src="${item.getIconPath @ context='uri'}" alt="Image">
+            </a>
+         </sly>
+      </sly>
+   </div>
+</div>
+<div data-sly-test="${wcmmode.edit}">
+	  <pre>Click here to edit Social Sharing Component</pre>
+</div>
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"
+    data-sly-call="${clientlib.css @ categories='Ch-SocialSharing'}" />
