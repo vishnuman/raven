@@ -1,8 +1,18 @@
-<div data-sly-use.obj="com.vishnu.core.models.Victor">
-
-
-<sly data-sly-list="${obj.racket}">
-<p> Name2:${item.kon} </p>
-<p> Name3:${item.dot} </p>
+<div data-sly-use.obj="com.vishnu.core.models.TaskThree">
+<p>Name1:${obj.one} </p>
+<p>Name2:${obj.two} </p>
+<p>Name3:${obj.three} </p>
+<p>Name4:${obj.four} </p>
+<p>Name5:${obj.rat} </p>
+<sly data-sly-list.jlk="${obj.racket}">
+<p>Name6:${jlk.kon} </p>
+<p>Name7:${jlk.dot} </p>
+</sly>
+<sly data-sly-list.you="${obj.packet}">
+<p>Name8:${you.vishnu} </p>
+<p>Name9:${you.jok} </p>
+<sly data-sly-list="${you.max}">
+<p>Name10:${item.rack} </p>
+</sly>
 </sly>
 </div>
